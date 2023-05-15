@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "name": "telegramApp",
-    "slug": "telegramApp"
+    "slug": "telegramApp",
+    "extra": {
+      "supportsRTL": true
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
